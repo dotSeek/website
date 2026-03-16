@@ -19,7 +19,7 @@ env:
   AKS_RESOURCE_GROUP: ${{ secrets.AKS_RESOURCE_GROUP }}
   AKS_CLUSTER_NAME: ${{ secrets.AKS_CLUSTER_NAME }}
 
-  NAMESPACE: dotseek
+  NAMESPACE: qthe
 
 concurrency:
   group: deploy-${{ github.ref }}
