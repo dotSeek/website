@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: dotseek-website
-  namespace: dotseek
+  namespace: qthe
   labels:
     app: dotseek-website
 spec:
